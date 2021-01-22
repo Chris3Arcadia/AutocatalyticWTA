@@ -60,7 +60,7 @@ subplot(2,1,2)
     grid on; box on;
     axis tight
     xlim(xlim+diff(xlim)*[-1,1]*1/60)
-    %ylim(ylim+diff(ylim)*[-1,1]*1/20)
+    ylim(ylim.*[3/2,2/3])
     set(gca,'yscale','log')
     xlabel('Training Epoch')
     ylabel('Mean Objective Change')
