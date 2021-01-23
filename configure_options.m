@@ -7,7 +7,7 @@ option = struct();
 option.database_path = '__develop__/caltech101_silhouettes_16.mat';
 
 % select classes to use
-option.classes = {'starfish','kangaroo','llama','dragonfly','ibis'};
+option.classes = {'starfish','kangaroo','llama','dragonfly','ibis'}; 
 
 % print detailed command line messages
 option.verbose = true; 
@@ -23,3 +23,8 @@ option.show_all_images = false;
 
 % image axis border thickness
 option.image_border_width = 0.75; 
+
+% seed random number generator
+option.random_seed = 0;
+randgen = rng(option.random_seed);
+

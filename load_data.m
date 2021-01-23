@@ -56,7 +56,7 @@ instances = ones(length(demo.name)); % select first instances
 for n = 1:demo.num
     subplot(nsq,nsq,n)
     imshow(func.reshaper(database.X(demo.positions{n}(instances(n)),:)))
-    imborder(gca,option.image_border_width,'k')
+    set(gca,'visible','on','linewidth',option.image_border_width,'xtick',[],'ytick',[],'box','on','xcolor','k','ycolor','k')    
     title(demo.name{n},'fontweight','normal')
 end
 clear nsq instances n
@@ -69,7 +69,7 @@ if option.show_all_images
         for o = 1:demo.count(n)
             subplot(nsq,nsq,o)
             imshow(func.reshaper(database.X(demo.positions{n}(o),:)))  
-            imborder(gca,option.image_border_width,'k')            
+            set(gca,'visible','on','linewidth',option.image_border_width,'xtick',[],'ytick',[],'box','on','xcolor','k','ycolor','k')    
             title(num2str(o),'fontweight','normal')
         end
     end
