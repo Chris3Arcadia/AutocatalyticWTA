@@ -9,6 +9,15 @@ option.database_path = '__develop__/caltech101_silhouettes_16.mat';
 % select classes to use
 option.classes = {'starfish','kangaroo','llama','dragonfly','ibis'}; 
 
+% select number of training epochs
+option.epochs = 700;
+
+% select the fraction of data used for training
+option.train_fraction = 70/100;
+
+% select gradient descent step size
+option.descent_step = 0.0005;
+
 % print detailed command line messages
 option.verbose = true; 
 

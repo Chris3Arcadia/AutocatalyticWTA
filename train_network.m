@@ -2,9 +2,9 @@
 
 % set training parameters
 training = struct();
-training.alpha = 0.0005; % descent step size 
-training.epoch = 700; % number of training epochs
-training.fraction = 70/100; % train to total data split
+training.alpha = option.descent_step; % descent step size 
+training.epoch = option.epochs; % number of training epochs
+training.fraction = option.train_fraction; % train to total data split
 if option.verbose
     disp(['Training network over ' num2str(training.epoch) ' epochs with ' num2str(training.fraction*100) '% of the available data using a step size of ' num2str(training.alpha) '.'])
 end
