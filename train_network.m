@@ -46,7 +46,6 @@ for n = 1:demo.num
 end 
 clear nsq n
 
-%%
 % review objective value change over training
 figure('color','w','name','Objective during Training')
 subplot(2,1,1)
@@ -64,15 +63,23 @@ subplot(2,1,2)
     neg = delta<0;
     pos = delta>0;
     hold on
-    plot(ind(neg),-delta(neg),'.','markersize',10)
-    plot(ind(pos),delta(pos),'.','markersize',10)
+    legstr = '';
+    if any(neg)
+        legstr = [legstr,{'-'}];
+        plot(ind(neg),-delta(neg),'.','markersize',10)
+    end
+    if any(pos)
+        legstr = [legstr,{'+'}];       
+        plot(ind(pos),delta(pos),'.','markersize',10)
+    end
     hold off
     grid on; box on;
-    legend('-','+')
+    legend(legstr)
     axis tight
     xlim(xlim+diff(xlim)*[-1,1]*1/60)
     ylim(ylim.*[2/3,3/2])
     set(gca,'yscale','log')
     xlabel('Training Epoch')
     ylabel('Mean Objective Change')
-    clear ind  neg pos
+    clear ind delta neg pos
+   

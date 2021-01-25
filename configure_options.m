@@ -35,5 +35,5 @@ option.image_border_width = 0.75;
 
 % seed random number generator
 option.random_seed = 0;
-randgen = rng(option.random_seed);
+rng(option.random_seed);
 

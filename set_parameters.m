@@ -22,7 +22,7 @@ param.alpha = 2.81e-3; % alpha [M]
 param.beta = 14.2e-6; % beta [M]
 param.k = 970; % k [1/M * 1/hr]
 
-%% Specify Experiment Functions
+%% Specify Experiment Functions (Based on the given parameters.)
 
 % initialize structure of functions
 func = struct();
