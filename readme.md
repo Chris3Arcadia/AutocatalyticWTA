@@ -24,7 +24,7 @@ To run this code, the following are required:
 
 4. Run the script `main.m` in MATLAB to train and simulate the network.
 
-   
+Also included is a script to analyze the images in the provided dataset (`analyze_dataset.m`) as well as a script to run multiple classification tests (`test_multiple_classifiers.m`).
 
 
 ## Cite

@@ -28,10 +28,13 @@ for n=1:avg.count
     subplot(nsq,nsq,n)
         imagesc(func.reshaper(avg.x(n,:)))
         colormap(gca,'gray')    
-        title(['(' num2str(avg.y(n)) ')' newline avg.name{n}],'fontweight','normal','fontsize',6)
-        axis off
         axis equal
+        axis tight
         box on
+%         axis off
+%         title([num2str(avg.y(n)) newline avg.name{n}],'fontweight','normal','fontsize',6)    
+        set(gca,'visible','on','linewidth',option.image_border_width,'xtick',[],'ytick',[],'box','on','xcolor','k','ycolor','k')
+        title([avg.name{n}],'fontweight','normal','fontsize',6)                
 end
 clear n nsq
 
@@ -45,7 +48,7 @@ for i=1:avg.count
 end
 clear i j
 
-%% visual image distances
+% visualize image distances
 figure('color','w','name','Comparing Class Averaged Image')
 imagesc(avg.distance); 
 colormap(gca,'gray')
