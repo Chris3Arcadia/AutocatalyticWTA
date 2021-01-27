@@ -1,6 +1,12 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%      Copyright (c) 2021, Christopher E. Arcadia (CC BY-NC 4.0)      %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %% Main Script 
-%   for training and testing the network described in "Leveraging autocatalytic reactions for chemical-domain image classification"
-%   by Chris Arcadia (Chris3Arcadia, christopher_arcadia@brown.edu, Brown University, c 2021)
+%  for training and testing the network described in 
+%  "Leveraging autocatalytic reactions for chemical-domain image classification"
+%  by Christopher E. Arcadia (christopher_arcadia@brown.edu) 
+
 
 % load settings
 configure_options

@@ -30,7 +30,7 @@ Also included is a script to analyze the images in the provided dataset (`analyz
 
 ## Cite
 
-Please cite our paper if you use this code in your own work:
+If you use this code in your own work, please cite our paper:
 
 ```
 @article{arcadia2020submitted,
@@ -39,6 +39,7 @@ Please cite our paper if you use this code in your own work:
   year={2020}
 }
 ```
+
 
 ## License
 
