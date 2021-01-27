@@ -11,7 +11,6 @@ MATLAB code for training and simulating the chemical-based image classification 
 ## Requirements
 To run this code, the following are required:
 * [MATLAB](https://www.mathworks.com/products/matlab.html) (tested and developed on [R2020b](https://www.mathworks.com/products/new_products/latest_features.html))
-
 * [CalTech 101 Silhouettes](https://people.cs.umass.edu/~marlin/data.shtml#:~:text=Description%3A%20This%20is%20a%20new,primary%20object%20in%20the%20scene.&text=The%20outline%20is%20rendered%20as,polygon%20on%20a%20white%20background) Data Set (download the [16x16 version](https://people.cs.umass.edu/~marlin/data/caltech101_silhouettes_16.mat))
 
 
@@ -30,7 +29,7 @@ Also included is a script to analyze the images in the provided dataset (`analyz
 
 ## Cite
 
-If you use this code in your own work, please cite our paper:
+Please cite our paper if you use this code in your own work:
 
 ```
 @article{arcadia2020submitted,
@@ -40,6 +39,9 @@ If you use this code in your own work, please cite our paper:
 }
 ```
 
+## Related Work
+
+This work has been developed by the [Molecular Informatics Team](https://molecularcomputing.info/) at [Brown University](https://www.brown.edu/) (Providence, RI, USA). Visit our website for related [projects](https://molecularcomputing.info/research/) and [publications](https://molecularcomputing.info/publications/). 
 
 ## License
 
