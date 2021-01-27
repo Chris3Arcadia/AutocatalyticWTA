@@ -1,5 +1,8 @@
 # Leveraging autocatalytic reactions for chemical-domain image classification
 
+[![license](https://i.creativecommons.org/l/by-nc/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc/4.0/)
+
+
 MATLAB code for training and simulating the chemical-based image classification network detailed in our paper:
 
 "Leveraging autocatalytic reactions for chemical-domain image classification" by Christopher E. Arcadia, Amanda Dombroski, Kady Oakley, Shui Ling Chen, Hokchhay Tann, Christopher Rose, Eunsuk Kim, Sherief Reda, Brenda M. Rubenstein, and Jacob K. Rosenstein. *Under Review 2020*.
@@ -10,8 +13,6 @@ To run this code, the following are required:
 * [MATLAB](https://www.mathworks.com/products/matlab.html) (tested and developed on [R2020b](https://www.mathworks.com/products/new_products/latest_features.html))
 
 * [CalTech 101 Silhouettes](https://people.cs.umass.edu/~marlin/data.shtml#:~:text=Description%3A%20This%20is%20a%20new,primary%20object%20in%20the%20scene.&text=The%20outline%20is%20rendered%20as,polygon%20on%20a%20white%20background) Data Set (download the [16x16 version](https://people.cs.umass.edu/~marlin/data/caltech101_silhouettes_16.mat))
-
-  
 
 
 ## Usage
@@ -38,4 +39,10 @@ Please cite our paper if you use this code in your own work:
   year={2020}
 }
 ```
+
+## License
+
+Copyright &copy; 2021, Christopher E. Arcadia
+
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License ([CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/)).
 
