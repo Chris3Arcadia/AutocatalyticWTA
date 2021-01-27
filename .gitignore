@@ -1,0 +1,5 @@
+# Prevent loading any folder that starts with double underscore
+__**/
+
+# Prevent loading temporary MATLAB files
+*.asv
