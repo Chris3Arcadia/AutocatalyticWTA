@@ -26,6 +26,20 @@ To run this code, the following are required:
 
 Also included is a script to analyze the images in the provided dataset (`analyze_dataset.m`) as well as a script to run multiple classification tests (`test_multiple_classifiers.m`).
 
+## Example
+
+Running the `main.m` script, after changing the default classes and epoch count to:
+
+```matlab
+option.classes = {'revolver','lamp','mandolin','headphone','umbrella','helicopter','pyramid','chair','saxophone'};
+option.epochs = 900; 
+```
+
+results in the following weight maps: 
+<center><img src="media/weights.png" width="45%" height=45%></center>
+
+and class predictions:
+<center><img src="media/predictions.png" width="55%" height=55%></center>
 
 ## Cite
 
