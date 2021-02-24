@@ -21,6 +21,9 @@ clear path
 % function to convert 1-D data to a 2-D image
 func.reshaper = @(image_vector) reshape(image_vector,database.dimensions);
 
+% function to compare two data vectors
+func.euclidean = @(a,b) sqrt(sum((a-b).^2)); % Euclidean distance
+
 % randomize data to make cross validation simple later
 database.shuffle.seed = 5;
 rng(database.shuffle.seed);

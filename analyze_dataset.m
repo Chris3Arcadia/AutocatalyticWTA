@@ -43,7 +43,6 @@ end
 clear n nsq
 
 % measure the similarity between class-averaged images
-func.euclidean = @(a,b) sqrt(sum((a-b).^2)); % Euclidean distance
 avg.distance = zeros(avg.count,avg.count);
 for i=1:avg.count
     for j=1:avg.count
