@@ -7,7 +7,6 @@
 %  "Leveraging autocatalytic reactions for chemical-domain image classification"
 %  by Christopher E. Arcadia (christopher_arcadia@brown.edu) 
 
-
 % load settings
 configure_options
 set_parameters

@@ -60,7 +60,7 @@ subplot(2,1,1)
     xlim(xlim+diff(xlim)*[-1,1]*1/60)
     ylim(ylim+diff(ylim)*[-1,1]*1/20)
     xlabel('Training Epoch')
-    ylabel('Mean Objective Value')
+    ylabel('Objective Value')
 subplot(2,1,2)
     ind = 2:training.epoch;
     delta = diff(mean(training.performance,2));
@@ -84,6 +84,6 @@ subplot(2,1,2)
     ylim(ylim.*[2/3,3/2])
     set(gca,'yscale','log')
     xlabel('Training Epoch')
-    ylabel('Mean Objective Change')
+    ylabel('Objective Change')
     clear ind delta neg pos
    
