@@ -5,7 +5,8 @@
 
 MATLAB code for training and simulating the chemical-based image classification network detailed in our paper:
 
-"Leveraging autocatalytic reactions for chemical-domain image classification" by Christopher E. Arcadia, Amanda Dombroski, Kady Oakley, Shui Ling Chen, Hokchhay Tann, Christopher Rose, Eunsuk Kim, Sherief Reda, Brenda M. Rubenstein, and Jacob K. Rosenstein. *Under Review 2020*.
+"Leveraging autocatalytic reactions for chemical-domain image classification" by Christopher E. Arcadia, Amanda Dombroski, Kady Oakley, Shui Ling Chen, Hokchhay Tann, Christopher Rose, Eunsuk Kim, Sherief Reda, Brenda M. Rubenstein, and Jacob K. Rosenstein. Chem. Sci. (2021).
+https://doi.org/10.1039/D0SC05860B
 
 
 ## Requirements
@@ -45,11 +46,15 @@ and class predictions:
 
 Please cite our paper if you use this code in your own work:
 
-```
-@article{arcadia2020submitted,
-  title={Leveraging autocatalytic reactions for chemical-domain image classification},
-  author={Arcadia et al.},
-  year={2020}
+```latex
+@article{arcadia2021,
+  author = {Arcadia, Christopher E and Dombroski, Amanda and Oakley, Kady and Chen, Shui Ling and Tann, Hokchhay and Rose, Christopher and Kim, Eunsuk and Reda, Sherief and Rubenstein, Brenda M and Rosenstein, Jacob K},
+  title = {Leveraging autocatalytic reactions for chemical-domain image classification},
+  journal = {Chem. Sci.},
+  year = {2021},
+  publisher = {The Royal Society of Chemistry},
+  doi = {10.1039/D0SC05860B},
+  url = {http://dx.doi.org/10.1039/D0SC05860B},
 }
 ```
 
